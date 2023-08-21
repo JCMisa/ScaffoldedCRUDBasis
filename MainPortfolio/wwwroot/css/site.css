@@ -1,0 +1,176 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: #232326;
+    position: relative;
+}
+
+.title{
+    font-size: 23px;
+    color: aqua;
+    text-decoration: none;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-item:first-child{
+    margin-left: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAFB;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navbar ul li a{
+    transition: .4s ease-in-out;
+}
+
+.navbar ul li a:hover{
+    color: turquoise;
+}
+
+
+
+
+
+/* for home/index */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.background {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100vw;
+    /* 100% of viewport width */
+    height: 100vh;
+    /* 100% of viewport height */
+    background-color: black;
+    z-index: -1;
+    /* To place it behind other content */
+}
+
+.blur-design {
+    /*design*/
+    width: 600.056px;
+    height: 600.056px;
+    transform: rotate(-17.376deg);
+    flex-shrink: 0;
+    border-radius: 723.056px;
+    opacity: 0.8;
+    background: linear-gradient(180deg, rgba(17, 180, 230, 0) 0%, #FF29C3 100%);
+    filter: blur(100px);
+    /*position*/
+    margin-top: -320px;
+    margin-left: -200px;
+}
+
+.timbol-icon {
+    /*design*/
+    width: 130px;
+    height: 252px;
+    flex-shrink: 0;
+    /*background: url(<./images/SuperToroid-Yellow-Glossy.png>), lightgray 50% / cover no-repeat;*/
+    /*position*/
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* Adjust as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    z-index: -2;
+}
+
+.timbol-bg {
+    /*layout/style*/
+    width: 300px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 606px;
+    opacity: 0.6;
+    background: linear-gradient(180deg, rgba(0, 194, 255, 0.00) 0%, #3551cf 100%);
+    filter: blur(100px);
+    /*position*/
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* Adjust as needed */
+    /* Maintain aspect ratio */
+}
+
+.main-container {
+    width: 1210px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: linear-gradient(136deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.blue-pill-icon {
+    position: fixed;
+    left: 5px;
+    bottom: 30px;
+}
+
+.cube-icon {
+    position: fixed;
+    left: 800px;
+    bottom: 2px;
+}
+
+.sphere-icon {
+    position: fixed;
+    left: 1240px;
+    top: 120px;
+}
+
+/*CONTENTS*/
+.title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: fixed;
+    top: 30px;
+    left: 100px;
+}
+
+
